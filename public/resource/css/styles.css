@@ -12,18 +12,18 @@ html{
 }
 header{
   min-height: 100vh;
-  background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)),url(../img/classroom.jpeg);
+  background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)),url(../img/cart.jpg);
   background-position: center;
   background-size: cover;
 }
 .logo1{
   margin-top: 10px;
   height:80px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   margin-right: 30px;
 }
 .navcon{
-  background-color: rgb(81, 169, 173);
+  background-color: #1c1c1c;
 }
 .navitem{
   font-size: 20px;
@@ -31,10 +31,10 @@ header{
   transition: 0.5s;
 }
 .navitem:hover{
-  border-bottom: 3px solid #59410a;
+  border-bottom: 3px solid #fff;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-  color: #59410a;
+  color: #fff;
   font-weight: bold;
 }
 .header-text{
@@ -69,29 +69,29 @@ header{
 }
 .btn-full:link,
 .btn-full:visited{
-  background-color: #59410a;
+  background-color: #1c1c1c;
   transition: 0.5s;
 }
 .btn-full:hover,
 .btn-full:active{
-  background-color: #3e2c03;
+  background-color: #000000;
   transition: 0.5s;
 }
 .btn-ghost:link,
 .btn-ghost:visited{
-  background-color: #59410a;
+  background-color: #1c1c1c;
   transition: 0.5s;
 }
 .btn-ghost:hover,
 .btn-ghost:active{
-  background-color: #3e2c03;
+  background-color: #000000;
   color:#FFF;
   transition: 0.5s;
 }
 .btn1:link,
 .btn1:visited{
   text-decoration: none;
-  color:#59410a;
+  color:#fff;
 }
 .btn-card{
   text-decoration: none;
@@ -105,23 +105,25 @@ header{
   font-size: 90%;
   padding: 5px 15px;
   margin-left: 25%;
+  background-color: #1c1c1c;
 }
 .btn-card:hover,
 .btn-card:active{
+  background-color: #000000;
   transition: 0.5s;
 }
 .btn-card:hover{
-  border-bottom: 3px solid #51a9ad;
+  border-bottom: 3px solid #fff;
     transition: 0.5s;
 }
 .section1{
   min-height: 100vh;
-  background-image:linear-gradient(rgba(220,220,220,0.69),rgba(220,220,220,0.69)),url(../img/hallway.jpeg);
+  background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)),url(../img/cart2.jpg);
   background-position: center;
   background-size: cover;
 }
 .cardcon{
-  background-color: transparent;
+  background-color: #1c1c1c;
   min-height: 900px;
   padding: 60px;
   margin-top: 20px;
@@ -129,12 +131,9 @@ header{
   font-size: 80%;
 
   margin-bottom: 30px;
-  -webkit-box-shadow: 0px 0px 0px 15px rgba(81,169,173,1);
-  -moz-box-shadow: 0px 0px 0px 15px rgba(81,169,173,1);
-  box-shadow: 0px 0px 0px 15px rgba(81,169,173,1);
 }
 .section1{
-  color: #3e2c03;
+  color: #fff;
 }
 .card h3{
   padding: 20px;
@@ -223,11 +222,11 @@ header{
 }
 footer{
   height: 10vh;
-  background-color: #51a9ad;
+  background-color: #1c1c1c;
 }
 .ft{
   font-family:"Dela Gothic One";
-  color: #3e2c03;
+  color: #fff;
   font-size: 60%;
   padding: 20px;
   margin-bottom: 0;
@@ -235,7 +234,7 @@ footer{
 }
 .formtitle{
   font-family:"Dela Gothic One";
-  color: #3e2c03;
+  color: #1c1c1c;
 }
 
 @media(max-width: 820px){
